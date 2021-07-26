@@ -2,7 +2,7 @@
 - hosts: app
   become: yes
   tasks:
-    - name: create new user
+    - name: create  a new user
       user:
          name: Mounika
          group: wheel    
